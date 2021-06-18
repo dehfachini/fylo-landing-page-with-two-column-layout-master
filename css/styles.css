@@ -5,6 +5,8 @@
     --moderate-cyan: hsl(170, 45%, 43%);
     --light-grayish-blue: hsl(240, 75%, 98%);
     --light-gray: hsl(0, 0%, 75%);
+    --raleway-font-family: 'Raleway', sans-serif;
+    --open-sans-font-family: 'Open Sans', sans-serif;
 }
 
 /* ### Headings, Call-to-actions, Header Navigation */
@@ -20,17 +22,79 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
 }
 
-.fylo-image img {}
+.fylo-image img {
+    width: 5rem;
+}
 
 .header {
-    padding-bottom: 100px;
+    padding-bottom: 5rem;
     display: flex;
     justify-content: space-between;
+    font-family: var(--raleway-font-family);
+    font-weight: 400;
 }
 
 .text-header {
     display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    width: 11rem;
+   
+}
+
+.inner-first-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-image img {
+    width: 21rem;
+    padding-bottom: 2rem;
+}
+
+.titleandtext {
+    padding-bottom: 2rem;
+    font-family: var(--open-sans-font-family);
+    
+}
+
+.first-title {
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: var(--very-dark-blue);
+}
+
+.first-text {
+    text-align: center;
+    color: var(--very-dark-blue);
+}
+
+input {
+    height: 2.5rem;
+    width: 20.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border-color: var(--light-gray);
+}
+
+.button1 {
+    width: 20.5rem;
+    height: 2.5rem;
+    background-color: var(--bright-blue);
+    margin-bottom: 2rem;
+    color: white;
+    font-family: var(--open-sans-font-family);
+    font-size: 13px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
    
 }
