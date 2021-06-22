@@ -83,7 +83,7 @@ input {
 }
 
 .button1 {
-    width: 20.5rem;
+    width: 21rem;
     height: 2.5rem;
     background-color: var(--bright-blue);
     margin-bottom: 2rem;
@@ -94,7 +94,58 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-
     border-radius: 5px;
+
+}
+
+.second-image img {
+    width: 21rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.inner-second-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleandtext2 {
+    padding-bottom: 2rem;
+    font-family: var(--open-sans-font-family);
+ 
+    
+}
+.second-title {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: var(--very-dark-blue);
    
 }
+
+.second-text {
+    text-align: center;
+    color: var(--desaturated-blue);
+    font-size: 15px;
+    text-align: left;
+
+}
+
+.paragraph {
+    padding-top: 1.5rem;
+}
+
+.linkandarrow {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 9.5rem;
+}
+.link {
+    padding-bottom: 3rem; 
+    color: var(--moderate-cyan);
+    font-size: 14px;
+    
+}
+
