@@ -30,7 +30,6 @@ body {
 
 .inner-container {
     padding: 1rem;
-
 }
 
 .fylo-image img {
@@ -86,9 +85,10 @@ input {
     margin-bottom: 1rem;
     border-radius: 5px;
     border-color: var(--light-gray);
+    color: var(--light-gray);
 }
 
-.button1 {
+.button {
     width: 21rem;
     height: 2.5rem;
     background-color: var(--bright-blue);
@@ -128,7 +128,6 @@ input {
 }
 
 .second-text {
-    text-align: center;
     color: var(--desaturated-blue);
     font-size: 15px;
     text-align: left;
@@ -144,7 +143,7 @@ input {
     justify-content: space-between;
     width: 9.5rem;
     border-bottom: 1px solid var(--moderate-cyan);
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .link {
@@ -155,7 +154,7 @@ input {
 .testimonial-card {
     padding: 2rem;
     width: 18rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
 }
 
 .inner-testimonial-card {
@@ -170,7 +169,6 @@ input {
     justify-content: space-between;
     width: 7.5rem;
     font-size: 10px;
-
 }
 
 .kyle-image img {
@@ -188,7 +186,85 @@ input {
 
 .third-card {
     background-color: var(--desaturated-blue);
-    margin-bottom: 3rem;
     color: white;
-    
 }
+
+.inner-third-card {
+    padding: 3rem;
+}
+
+.third-title {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+.third-text {
+    font-size: 14px;
+    text-align: center;
+}
+
+.input-two {
+    width: 16rem;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 12px;
+}
+
+.button-two {
+    width: 16.5rem;
+    font-size: 11px;
+    margin-bottom: 1rem;
+}
+
+.footer-card {
+    background-color: var(--very-dark-blue);
+}
+
+.inner-footer {
+    padding: 3rem;
+    color: white;
+    font-size: 14px;
+}
+
+.fylo-image-two img {
+    filter: invert(96%) sepia(100%) saturate(2%) hue-rotate(257deg) brightness(109%) contrast(100%);
+    padding-bottom: 1rem;
+    font-size: 14px;
+}
+
+.phone-information {
+    display: flex;
+    justify-content: space-between;
+    width: 12rem;
+    margin-bottom: 1rem;
+}
+
+.mail-information {
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+    margin-bottom: 3rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between ;
+    margin: auto;
+
+}
+.first-footer div, .second-footer div{
+    height: 2rem;
+}
+
+.first-footer {
+    height: 10rem;
+}
+
+.second-footer {
+    height: 8rem;
+}
+
