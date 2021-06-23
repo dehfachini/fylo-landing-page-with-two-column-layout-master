@@ -268,3 +268,12 @@ input {
     height: 8rem;
 }
 
+.icons {
+    width: 20px;
+    filter: invert(96%) sepia(100%) saturate(2%) hue-rotate(257deg) brightness(109%) contrast(100%);
+ }
+
+ .social-icons {
+    width: 80px;
+    
+ }
