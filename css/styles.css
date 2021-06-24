@@ -298,3 +298,89 @@ input {
     justify-content: center;
     width: 100%;
 }
+
+@media (min-width: 375px) {
+    .fylo-image img {
+        width: 12rem;
+    }
+    .header {
+        padding-bottom: 3rem;
+    }
+    .text-header {
+        font-size: 18px;
+        width: 18rem;
+    }
+    .inner-container {
+        padding: 5rem;
+    }
+    .inner-first-card {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .first-image img {
+        width: 40rem;
+    }
+    .first-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+    .first-title {
+        text-align: left;
+        font-size: 40px;
+        line-height: 4rem;
+    }
+    .first-text {
+        text-align: left;
+        font-size: 20px;
+        line-height: 1.5rem;
+    }
+    .inputandbutton {
+        display: flex;
+        width: 100%;
+    }
+    .input1 {
+        padding-right: 1rem;
+    }
+    .button {
+        width: 11rem;
+    }
+    .inner-second-card {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 10rem;
+    }
+    .second-image img {
+        width: 35rem;
+    }
+    .second-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+        width: 300rem;
+    }
+    .second-title, .second-text {
+        text-align: left;
+    }
+    .second-title {
+        font-size: 40px;
+        line-height: 4rem;
+    }
+    .second-text {
+        font-size: 20px;
+        line-height: 1.5rem;
+        width: 40rem;
+    }
+    .linkandarrow {
+        align-self: flex-start;
+    }
+    .testimonial-card {
+        padding: 2rem 2rem 2rem 0;
+        width: 20rem;
+        
+    }
+    .inner-testimonial-card {
+        font-size: 14px;
+        
+    }
+}
