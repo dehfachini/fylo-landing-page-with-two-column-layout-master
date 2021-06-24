@@ -19,6 +19,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     margin: auto;
+    line-height: 1.3rem;
 }
 
 .container {
@@ -29,7 +30,7 @@ body {
 }
 
 .inner-container {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .fylo-image img {
@@ -57,7 +58,7 @@ body {
 }
 
 .first-image img {
-    width: 21rem;
+    width: 19rem;
     padding-bottom: 2rem;
 }
 
@@ -68,29 +69,39 @@ body {
 
 .first-title {
     font-weight: bold;
-    font-size: 26px;
+    font-size: 25px;
     text-align: center;
-    padding-bottom: 2rem;
+    margin-bottom: 1.5rem;
     color: var(--very-dark-blue);
+    line-height: 2.2rem;
 }
 
 .first-text {
     text-align: center;
     color: var(--very-dark-blue);
+    font-size: 14px;
 }
 
 input {
-    height: 2.5rem;
-    width: 20.5rem;
+    height: 2.2rem;
+    width: 19rem;
     margin-bottom: 1rem;
-    border-radius: 5px;
-    border-color: var(--light-gray);
+    border-radius: 4px;
+    border-color: var(--desaturated-blue);
+    border-style: solid;
+    border-width: 0.1rem;
+    color: var(--light-gray);
+    padding-left: 1rem;
+    font-size: 12px;
+}
+
+::placeholder {
     color: var(--light-gray);
 }
 
 .button {
-    width: 21rem;
-    height: 2.5rem;
+    width: 19.5rem;
+    height: 2.3rem;
     background-color: var(--bright-blue);
     margin-bottom: 2rem;
     color: white;
@@ -100,13 +111,13 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .second-image img {
     width: 21rem;
-    padding-bottom: 4rem;
-    padding-top: 4rem;
+    padding-bottom: 5rem;
+    padding-top: 8rem;
 }
 
 .inner-second-card {
@@ -121,7 +132,7 @@ input {
 
 .second-title {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     padding-bottom: 2rem;
     color: var(--very-dark-blue);
@@ -129,21 +140,21 @@ input {
 
 .second-text {
     color: var(--desaturated-blue);
-    font-size: 15px;
+    font-size: 14px;
     text-align: left;
 }
 
 .paragraph {
-    padding-top: 1.5rem;
+    padding-top: 1.2rem;
 }
 
 .linkandarrow {
     display: flex;
     align-self: center;
     justify-content: space-between;
-    width: 9.5rem;
+    width: 9.3rem;
     border-bottom: 1px solid var(--moderate-cyan);
-    margin-bottom: 1rem;
+    margin-bottom: 0.7rem;
 }
 
 .link {
@@ -153,14 +164,16 @@ input {
 
 .testimonial-card {
     padding: 2rem;
-    width: 18rem;
+    width: 15.5rem;
     margin-bottom: 0.5rem;
 }
 
 .inner-testimonial-card {
     background-color: #fff;
     padding: 0.8rem;
-    font-size: 12px;
+    font-size: 10px;
+    box-shadow: 0 0 1em var(--light-gray);
+    border-radius: 3px;
 }
 
 .person-info {
@@ -168,7 +181,8 @@ input {
     display: flex;
     justify-content: space-between;
     width: 7.5rem;
-    font-size: 10px;
+    font-size: 9px;
+    line-height: 0.8rem;
 }
 
 .kyle-image img {
@@ -181,7 +195,7 @@ input {
 }
 
 .position {
-    font-size: 8px;
+    font-size: 7px;
 }
 
 .third-card {
@@ -190,12 +204,16 @@ input {
 }
 
 .inner-third-card {
-    padding: 3rem;
+    padding: 3rem 3rem 2rem 3rem;
+}
+
+.titleandtext3 {
+    padding-bottom: 1.5rem;
 }
 
 .third-title {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     padding-bottom: 1rem;
     color: white;
@@ -211,12 +229,13 @@ input {
     height: 2rem;
     margin-bottom: 0.5rem;
     font-size: 12px;
+    padding-left: 0.5rem;
+    font-size: 11px;
 }
 
 .button-two {
-    width: 16.5rem;
+    width: 16.8rem;
     font-size: 11px;
-    margin-bottom: 1rem;
 }
 
 .footer-card {
@@ -224,14 +243,14 @@ input {
 }
 
 .inner-footer {
-    padding: 3rem;
+    padding: 4rem 3rem 4rem 3rem;
     color: white;
     font-size: 14px;
 }
 
 .fylo-image-two img {
     filter: invert(96%) sepia(100%) saturate(2%) hue-rotate(257deg) brightness(109%) contrast(100%);
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     font-size: 14px;
 }
 
@@ -252,11 +271,11 @@ input {
 .footer-links {
     display: flex;
     flex-direction: column;
-    align-content: space-between ;
+    align-content: space-between;
     margin: auto;
-
 }
-.first-footer div, .second-footer div{
+
+.first-footer div, .second-footer div {
     height: 2rem;
 }
 
@@ -271,9 +290,11 @@ input {
 .icons {
     width: 20px;
     filter: invert(96%) sepia(100%) saturate(2%) hue-rotate(257deg) brightness(109%) contrast(100%);
- }
+    padding: 0.3rem;
+}
 
- .social-icons {
-    width: 80px;
-    
- }
+.social-icons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
