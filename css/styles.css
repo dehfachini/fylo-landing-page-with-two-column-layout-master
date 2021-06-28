@@ -299,7 +299,7 @@ input {
     width: 100%;
 }
 
-@media (min-width: 375px) {
+ @media (min-width: 376px) {
     .fylo-image img {
         width: 12rem;
     }
@@ -311,19 +311,21 @@ input {
         width: 18rem;
     }
     .inner-container {
-        padding: 5rem;
+        padding: 6rem;
     }
     .inner-first-card {
         display: flex;
         flex-direction: row-reverse;
     }
     .first-image img {
-        width: 40rem;
+        width: 30rem;
+        margin-top: 4rem;
     }
     .first-container {
         display: flex;
         flex-direction: column;
         margin-top: 4rem;
+        margin-right: 4rem;
     }
     .first-title {
         text-align: left;
@@ -351,7 +353,7 @@ input {
         margin-top: 10rem;
     }
     .second-image img {
-        width: 35rem;
+        width: 30rem;
     }
     .second-container {
         display: flex;
@@ -373,14 +375,75 @@ input {
     }
     .linkandarrow {
         align-self: flex-start;
+        width: 12rem;
+    }
+    .link {
+        font-size: 18px;
     }
     .testimonial-card {
         padding: 2rem 2rem 2rem 0;
-        width: 20rem;
-        
+        width: 22rem;
     }
     .inner-testimonial-card {
         font-size: 14px;
-        
+        line-height: 1.5rem;
     }
-}
+    .quotes {
+        margin-bottom: 0.5rem;
+    }
+    .person-info {
+        font-size: 11px;
+        line-height: 1.1rem;
+        width: 9rem;
+    }
+    .kyle-image img {
+        width: 2rem;
+    }
+    .kyle {
+        font-weight: bold;
+    }
+    .position {
+        font-size: 9px;
+    }
+    .third-card {
+        height: 20rem;
+    }
+    .inner-third-card {
+        display: flex;
+        margin-top: 3.5rem;
+        padding: 3rem 8rem 0 8rem;
+    }
+    .third-title, .third-text {
+        text-align: left;
+    }
+    .third-title {
+        font-size: 30px;
+    }
+    .third-text {
+        font-size: 17px;
+        width: 30rem;
+        margin-top: 1.5rem;
+        line-height: 1.6rem;
+    }
+    .titleandtext3 {
+        padding-right: 20rem;
+    }
+    .input-two {
+        width: 20rem;
+    }
+    .inner-footer {
+        display: flex;
+        padding: 3rem 8rem 0 8rem;
+    }
+    .first-footer {
+        padding-top: 5rem;
+        margin-left: 10rem;
+    }
+    .second-footer {
+        padding-top: 3rem;
+    }
+    .social-icons {
+        width:20rem;
+        height: 12rem;
+    }
+} 
