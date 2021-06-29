@@ -16,7 +16,7 @@ This is a solution to the [Fylo Landing Page With Two Column Layout Master on Fr
 
 ### Links
 
-- Live Site URL: [github-pages](https://dehfachini.github.io/fylo-landing-page/)
+- Live Site URL: [github-pages](https://dehfachini.github.io/fylo-landing-page-with-two-column-layout-master/)
 
 ## My process
 
